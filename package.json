@@ -1,0 +1,25 @@
+{
+  "name": "jlouvain",
+  "version": "1.0.0",
+  "description": "**Corneliu S.**",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgranstrom/jLouvain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgranstrom/jLouvain/issues"
+  },
+  "homepage": "https://github.com/jgranstrom/jLouvain#readme",
+  "types": "./jlouvain.d.ts"
+}
